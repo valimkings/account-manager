@@ -18,7 +18,7 @@ $ docker-compose up -d
 $ mvn spring-boot:run
 ```
 
-### Colletctions para teste da API
+### Collections para testes da API
 
 Segue collections para teste da API no Postman
 
