@@ -1,0 +1,15 @@
+version: '3.1'
+
+services:
+  mysqldb:
+    image: mysql:5.7.22
+    command: mysqld --user=root --verbose
+    restart: always
+    environment:
+      MYSQL_DATABASE: test
+      MYSQL_ROOT_PASSWORD: admin
+      MYSQL_USER: root
+      MYSQL_ROOT_HOST: 172.18.0.1
+    ports:
+    - "3306:3306"
+
