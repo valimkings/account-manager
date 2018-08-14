@@ -1,14 +1,10 @@
 package com.nilson.account.controllers;
 
 import com.nilson.account.models.Transaction;
-import com.nilson.account.models.Transfer;
 import com.nilson.account.request.ChargeRequest;
-import com.nilson.account.request.Response.EntityCreated;
+import com.nilson.account.response.EntityCreated;
 import com.nilson.account.request.ReverseChargeRequest;
-import com.nilson.account.request.ReverseRequest;
-import com.nilson.account.request.TransferRequest;
 import com.nilson.account.services.ChargeService;
-import com.nilson.account.services.TransferService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

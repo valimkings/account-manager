@@ -3,7 +3,7 @@ package com.nilson.account.controllers;
 import com.nilson.account.models.Account;
 import com.nilson.account.request.AccountMatrixRequest;
 import com.nilson.account.request.AccountRequest;
-import com.nilson.account.request.Response.EntityCreated;
+import com.nilson.account.response.EntityCreated;
 import com.nilson.account.services.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

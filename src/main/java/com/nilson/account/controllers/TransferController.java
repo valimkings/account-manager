@@ -1,7 +1,7 @@
 package com.nilson.account.controllers;
 
 import com.nilson.account.models.Transfer;
-import com.nilson.account.request.Response.EntityCreated;
+import com.nilson.account.response.EntityCreated;
 import com.nilson.account.request.ReverseRequest;
 import com.nilson.account.request.TransferRequest;
 import com.nilson.account.services.TransferService;

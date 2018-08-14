@@ -3,7 +3,7 @@ package com.nilson.account.controllers;
 import com.nilson.account.models.ContributionInput;
 import com.nilson.account.request.ContribuitionInputRequest;
 import com.nilson.account.request.ContributionReverseRequest;
-import com.nilson.account.request.Response.EntityCreated;
+import com.nilson.account.response.EntityCreated;
 import com.nilson.account.services.ContributionInputService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

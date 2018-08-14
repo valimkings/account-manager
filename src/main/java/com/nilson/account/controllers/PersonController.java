@@ -3,7 +3,7 @@ package com.nilson.account.controllers;
 import com.nilson.account.models.Person;
 import com.nilson.account.request.IndividualPersonRequest;
 import com.nilson.account.request.OrganizationPersonRequest;
-import com.nilson.account.request.Response.EntityCreated;
+import com.nilson.account.response.EntityCreated;
 import com.nilson.account.services.OrganizationPersonService;
 import com.nilson.account.services.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;

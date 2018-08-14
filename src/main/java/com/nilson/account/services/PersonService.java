@@ -5,7 +5,7 @@ import com.nilson.account.models.IndividualPerson;
 import com.nilson.account.models.Person;
 import com.nilson.account.repositories.PersonRepository;
 import com.nilson.account.request.IndividualPersonRequest;
-import com.nilson.account.request.Response.EntityCreated;
+import com.nilson.account.response.EntityCreated;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;

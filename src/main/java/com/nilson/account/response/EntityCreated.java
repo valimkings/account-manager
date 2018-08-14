@@ -1,4 +1,4 @@
-package com.nilson.account.request.Response;
+package com.nilson.account.response;
 
 public class EntityCreated {
 

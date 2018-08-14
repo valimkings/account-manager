@@ -9,7 +9,7 @@ import com.nilson.account.repositories.AccountRepository;
 import com.nilson.account.repositories.PersonRepository;
 import com.nilson.account.request.AccountMatrixRequest;
 import com.nilson.account.request.AccountRequest;
-import com.nilson.account.request.Response.EntityCreated;
+import com.nilson.account.response.EntityCreated;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;

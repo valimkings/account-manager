@@ -10,7 +10,7 @@ import com.nilson.account.models.Transfer;
 import com.nilson.account.repositories.AccountRepository;
 import com.nilson.account.repositories.TransactionRepository;
 import com.nilson.account.repositories.TransferRepository;
-import com.nilson.account.request.Response.EntityCreated;
+import com.nilson.account.response.EntityCreated;
 import com.nilson.account.request.TransferRequest;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
