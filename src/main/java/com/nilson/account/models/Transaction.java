@@ -50,6 +50,22 @@ public class Transaction {
         return amount;
     }
 
+    public void setAmount(Double amount) {
+        this.amount = amount;
+    }
+
+    public void setDestinationAccount(Account destinationAccount) {
+        this.destinationAccount = destinationAccount;
+    }
+
+    public LocalDateTime getData() {
+        return data;
+    }
+
+    public void setData(LocalDateTime data) {
+        this.data = data;
+    }
+
     public Account getDestinationAccount() {
         return destinationAccount;
     }

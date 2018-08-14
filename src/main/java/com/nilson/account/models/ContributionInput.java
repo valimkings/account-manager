@@ -39,18 +39,6 @@ public class ContributionInput {
     public ContributionInput() {
     }
 
-    public Account getDestinationAccount() {
-        return destinationAccount;
-    }
-
-    public boolean isReversed() {
-        return reversed;
-    }
-
-    public void setReversed(boolean reversed) {
-        this.reversed = reversed;
-    }
-
     public Long getId() {
         return id;
     }
@@ -59,8 +47,37 @@ public class ContributionInput {
         this.id = id;
     }
 
+    public void setDestinationAccount(Account destinationAccount) {
+        this.destinationAccount = destinationAccount;
+    }
+
+    public String getTransactionCode() {
+        return transactionCode;
+    }
+
+    public void setTransactionCode(String transactionCode) {
+        this.transactionCode = transactionCode;
+    }
+
+    public void setReversed(boolean reversed) {
+        this.reversed = reversed;
+    }
+
     public Double getAmount() {
         return amount;
     }
+
+    public void setAmount(Double amount) {
+        this.amount = amount;
+    }
+
+    public Account getDestinationAccount() {
+        return destinationAccount;
+    }
+
+    public boolean isReversed() {
+        return reversed;
+    }
+
 
 }

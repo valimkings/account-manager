@@ -39,6 +39,10 @@ public class Transfer {
         this.id = id;
     }
 
+    public void setSourceAccount(Account sourceAccount) {
+        this.sourceAccount = sourceAccount;
+    }
+
     public Account getSourceAccount() {
         return sourceAccount;
     }
